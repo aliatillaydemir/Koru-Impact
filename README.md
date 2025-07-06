@@ -2,6 +2,12 @@
 
 A modern, responsive website for Koru Impact, a sustainable innovation consulting company. Built with HTML and Tailwind CSS.
 
+## 🔗 Live Demo
+
+You can view the live version of this project by clicking the link below:
+
+[Visit the website](https://koru-impact-6m0m4wu6g-atillas-projects-111243ae.vercel.app/)
+
 ## 🌟 Features
 
 - **Responsive Design**: Fully responsive across all devices
