@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koru Impact - Driving Sustainable Innovation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#2563EB',
+                        'primary-green': '#16A34A',
+                        'accent-gold': '#FBBF24',
+                        'text-gray': '#1F2937'
+                    },
+                    fontFamily: {
+                        'lato': ['Lato', 'sans-serif'],
+                        'libre': ['Libre Baskerville', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-text-gray">
+    <!-- Navigation -->
+    <nav class="bg-white/95 backdrop-blur-md shadow-lg fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <a href="index.html" class="cursor-pointer">
+                            <h1 class="text-3xl font-lato font-bold bg-gradient-to-r from-primary-blue to-primary-green bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-300">Koru Impact</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="flex items-center space-x-8">
+                        <a href="index.html" class="text-primary-blue font-lato font-semibold px-4 py-2 rounded-lg text-sm bg-blue-50 border border-blue-100">Home</a>
+                        <a href="about.html" class="text-text-gray hover:text-primary-blue font-lato font-medium px-4 py-2 rounded-lg text-sm transition-all duration-300 hover:bg-gray-50">About Us</a>
+                        <a href="services.html" class="text-text-gray hover:text-primary-blue font-lato font-medium px-4 py-2 rounded-lg text-sm transition-all duration-300 hover:bg-gray-50">Our Services</a>
+                        <a href="contact.html" class="text-text-gray hover:text-primary-blue font-lato font-medium px-4 py-2 rounded-lg text-sm transition-all duration-300 hover:bg-gray-50">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-16 bg-gradient-to-br from-primary-blue to-primary-green text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-lato font-bold mb-6">
+                    Catalyst for Sustainable Human & Organizational Flourishing
+                </h1>
+                <p class="text-xl md:text-2xl font-libre mb-8 max-w-3xl mx-auto">
+                    We build synergistic ecosystems where rigorous social science research, evidence-based well-being practices, and purpose-driven consulting converge to empower individuals and organizations.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="services.html" class="bg-accent-gold text-text-gray font-lato font-bold py-3 px-8 rounded-lg hover:bg-yellow-400 transition duration-300">
+                        Explore Our Services
+                    </a>
+                    <a href="about.html" class="border-2 border-white text-white font-lato font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-primary-blue transition duration-300">
+                        Learn About Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-lato font-bold text-text-gray mb-4">
+                    Our Four-Pillar Ecosystem
+                </h2>
+                <p class="text-lg font-libre text-gray-600 max-w-3xl mx-auto">
+                    Our integrated approach combines social science research, well-being services, professional education, and social impact consulting to create lasting positive change.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary-blue to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-lato font-bold text-text-gray mb-2">Social Science Research</h3>
+                    <p class="font-libre text-gray-600">Rigorous research on well-being in Turkish cultural context</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary-green to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-lato font-bold text-text-gray mb-2">B2B Well-being Services</h3>
+                    <p class="font-libre text-gray-600">Bespoke programs enhancing psychological safety</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-accent-gold to-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <svg class="w-8 h-8 text-text-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-lato font-bold text-text-gray mb-2">Professional Education</h3>
+                    <p class="font-libre text-gray-600">Thought leadership platform upskilling professionals</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-lato font-bold text-text-gray mb-2">UN SDG Consulting</h3>
+                    <p class="font-libre text-gray-600">Aligning corporate strategy with global goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-600/20"></div>
+        <div class="absolute inset-0 bg-black/5"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-lato font-bold mb-4">
+                Ready to Flourish Together?
+            </h2>
+            <p class="text-xl font-libre mb-8 max-w-2xl mx-auto">
+                Let's discuss how Koru Impact can guide your organization through the complex terrain of sustainable change.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-accent-gold text-text-gray font-lato font-bold py-3 px-8 rounded-lg hover:bg-yellow-400 transition duration-300 transform hover:scale-105 shadow-lg">
+                    Start Your Journey
+                </a>
+                <a href="services.html" class="border-2 border-white text-white font-lato font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-700 transition duration-300 shadow-lg">
+                    Explore Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-br from-text-gray via-gray-800 to-black text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary-blue/10 to-primary-green/10"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Main Footer Content -->
+            <div class="py-12">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-lato font-bold bg-gradient-to-r from-accent-gold via-yellow-400 to-accent-gold bg-clip-text text-transparent mb-4">Koru Impact</h3>
+                        <p class="font-libre text-gray-300 text-lg leading-relaxed">Catalyst for sustainable human & organizational flourishing</p>
+                        <div class="mt-6 flex justify-center md:justify-start space-x-4">
+                            <div class="w-2 h-2 bg-accent-gold rounded-full"></div>
+                            <div class="w-2 h-2 bg-primary-green rounded-full"></div>
+                            <div class="w-2 h-2 bg-primary-blue rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="text-center md:text-right">
+                        <h4 class="font-lato font-semibold text-white mb-6 text-lg">Quick Links</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <a href="index.html" class="text-gray-300 hover:text-accent-gold transition duration-300 font-lato font-medium hover:translate-x-1 transform block">Home</a>
+                            <a href="about.html" class="text-gray-300 hover:text-accent-gold transition duration-300 font-lato font-medium hover:translate-x-1 transform block">About</a>
+                            <a href="services.html" class="text-gray-300 hover:text-accent-gold transition duration-300 font-lato font-medium hover:translate-x-1 transform block">Services</a>
+                            <a href="contact.html" class="text-gray-300 hover:text-accent-gold transition duration-300 font-lato font-medium hover:translate-x-1 transform block">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-700 py-6">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <p class="font-libre text-gray-400 text-sm">Empowering organizations to reach their full potential</p>
+                    <p class="font-libre text-gray-400 text-sm">&copy; 2025 Koru Impact. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
