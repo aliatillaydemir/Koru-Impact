@@ -6,7 +6,7 @@ A modern, responsive website for Koru Impact, a sustainable innovation consultin
 
 You can view the live version of this project by clicking the link below:
 
-[Visit the website](https://koru-impact-6m0m4wu6g-atillas-projects-111243ae.vercel.app/)
+[Visit the website](https://koru-impact.vercel.app)
 
 ## 🌟 Features
 
